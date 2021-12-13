@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./Header";
+import Intro from "./Intro";
+import Services from "./Services";
+import About from "./About";
+import Work from "./Work";
+import Footer from "./Footer";
+import PortfolioItem from "./PortfolioItem";
 
 function App() {
+  const [route, setRoute] = React.useState("home");
+  const [item, setItem] = React.useState(1);
+
+  function onRouteChange(route) {
+    setRoute(route);
+  }
+
+  function onChangeItem(item) {
+    setItem(item);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header onRouteChange={onRouteChange} />
+      {route === "home" ? (
+        <div>
+          <Intro />
+          <Services />
+          <About />
+          <Work onRouteChange={onRouteChange} onChangeItem={onChangeItem} />
+        </div>
+      ) : (
+        <PortfolioItem item={item} />
+      )}
+      <Footer />
     </div>
   );
 }
