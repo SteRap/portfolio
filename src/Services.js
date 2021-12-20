@@ -8,15 +8,15 @@ function Services() {
         <div className="service">
           <h3>Design + Development</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            I can develop web applications from scratch. Tailoring a
+            great-looking UI inline with your business' mission and core values,
+            and optimizing your users' experience, I deliver products that
+            customers really love.
           </p>
         </div>
 
         <div className="service">
-          <h3>E-Commerce</h3>
+          <h3>Applications + Games</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -26,12 +26,11 @@ function Services() {
         </div>
 
         <div className="service">
-          <h3>WordPress</h3>
+          <h3>Find + Improve Solutions</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            I seek innovative and creative solutions to solve complex problems.
+            I advocate for lateral thinking, because a boundary is just the
+            original edge of something else.
           </p>
         </div>
       </div>

@@ -327,7 +327,7 @@ header {
 }
 
 .service {
-  max-width: 500px;
+  width: fit-content;
   margin: 0 auto;
 }
 
@@ -338,13 +338,25 @@ header {
 @media (min-width: 800px) {
   .services {
     display: flex;
+    flex-direction: row;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
   }
 
+  .service h3 {
+    min-height: 15%;
+  }
+
+  .service > p {
+    text-align: justify;
+  }
+
+  .service:nth-child(2) {
+    padding: 0 2em;
+  }
+
   .service + .service {
-    margin-left: 2em;
     margin-top: 0;
   }
 }
@@ -363,7 +375,7 @@ header {
 @media (min-width: 600px) {
   .about-me {
     display: grid;
-    grid-template-columns: 1fr 200px;
+    grid-template-columns: 1fr 250px;
     grid-template-areas:
       "title img"
       "subtitle img"

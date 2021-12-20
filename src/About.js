@@ -1,5 +1,5 @@
 import React from "react";
-import profileImg from "./Media/Profile_picture.jpg";
+import profileImg from "./Media/profile_3.jpg";
 
 function About() {
   return (
