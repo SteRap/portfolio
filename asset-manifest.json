@@ -1,26 +1,36 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4dde4346.chunk.css",
-    "main.js": "/portfolio/static/js/main.3ba069e0.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.3ba069e0.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.0a2092cd.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.0a2092cd.js.map",
-    "static/js/2.56d41e0c.chunk.js": "/portfolio/static/js/2.56d41e0c.chunk.js",
-    "static/js/2.56d41e0c.chunk.js.map": "/portfolio/static/js/2.56d41e0c.chunk.js.map",
-    "static/js/3.3351d3e0.chunk.js": "/portfolio/static/js/3.3351d3e0.chunk.js",
-    "static/js/3.3351d3e0.chunk.js.map": "/portfolio/static/js/3.3351d3e0.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.65730c54.chunk.css",
+    "main.js": "/portfolio/static/js/main.eaeb83e9.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.eaeb83e9.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.5c2a92a9.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.5c2a92a9.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/portfolio/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.3041a078.chunk.js": "/portfolio/static/js/2.3041a078.chunk.js",
+    "static/js/2.3041a078.chunk.js.map": "/portfolio/static/js/2.3041a078.chunk.js.map",
+    "static/js/3.74b904b7.chunk.js": "/portfolio/static/js/3.74b904b7.chunk.js",
+    "static/js/3.74b904b7.chunk.js.map": "/portfolio/static/js/3.74b904b7.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.4dde4346.chunk.css.map": "/portfolio/static/css/main.4dde4346.chunk.css.map",
-    "static/js/2.56d41e0c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.56d41e0c.chunk.js.LICENSE.txt",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/portfolio/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.65730c54.chunk.css.map": "/portfolio/static/css/main.65730c54.chunk.css.map",
+    "static/js/2.3041a078.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3041a078.chunk.js.LICENSE.txt",
     "static/media/Profile_picture.48ab1e9d.jpg": "/portfolio/static/media/Profile_picture.48ab1e9d.jpg",
     "static/media/index.css": "/portfolio/static/media/bcg.services.dc25456c.png",
     "static/media/logo_SR.de07a812.png": "/portfolio/static/media/logo_SR.de07a812.png",
-    "static/media/profile_3.06e9cf0b.jpg": "/portfolio/static/media/profile_3.06e9cf0b.jpg"
+    "static/media/profile_3.06e9cf0b.jpg": "/portfolio/static/media/profile_3.06e9cf0b.jpg",
+    "static/media/quizzical.201327c5.png": "/portfolio/static/media/quizzical.201327c5.png",
+    "static/media/robofriends.fe03fe3e.png": "/portfolio/static/media/robofriends.fe03fe3e.png",
+    "static/media/robofriends_presentation.94532dc9.png": "/portfolio/static/media/robofriends_presentation.94532dc9.png",
+    "static/media/save_the_meal.57ceff29.png": "/portfolio/static/media/save_the_meal.57ceff29.png",
+    "static/media/save_the_meal_presentation.d67b49f5.png": "/portfolio/static/media/save_the_meal_presentation.d67b49f5.png",
+    "static/media/smart_brain.21f68c1b.png": "/portfolio/static/media/smart_brain.21f68c1b.png",
+    "static/media/space_tourism.b5146935.png": "/portfolio/static/media/space_tourism.b5146935.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0a2092cd.js",
-    "static/js/2.56d41e0c.chunk.js",
-    "static/css/main.4dde4346.chunk.css",
-    "static/js/main.3ba069e0.chunk.js"
+    "static/js/runtime-main.5c2a92a9.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.3041a078.chunk.js",
+    "static/css/main.65730c54.chunk.css",
+    "static/js/main.eaeb83e9.chunk.js"
   ]
 }
