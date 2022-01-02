@@ -11,7 +11,7 @@ import PortfolioItem from "./PortfolioItem";
 
 function App() {
   const [route, setRoute] = React.useState("home");
-  const [item, setItem] = React.useState(1);
+  const [item, setItem] = React.useState(0);
 
   function onRouteChange(route) {
     setRoute(route);

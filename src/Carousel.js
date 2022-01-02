@@ -12,7 +12,7 @@ export const CarouselItem = ({ children, width }) => {
 
 const Carousel = ({ children }) => {
   const [activeIndex, setActiveIndex] = React.useState(0);
-  const [paused, setPaused] = React.useState(false);
+  const [paused, setPaused] = React.useState(true);
   const [screenSize, setScreenSize] = React.useState(0);
 
   React.useLayoutEffect(() => {
@@ -23,8 +23,6 @@ const Carousel = ({ children }) => {
     updateSize();
     return () => window.removeEventListener("resize", updateSize);
   }, []);
-
-  console.log("screen", screenSize);
 
   const updateIndex = (newIndex) => {
     if (newIndex < 0) {
