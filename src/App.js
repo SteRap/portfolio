@@ -13,6 +13,13 @@ function App() {
   const [route, setRoute] = React.useState("home");
   const [item, setItem] = React.useState(0);
 
+  React.useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      offset: 200,
+    });
+  }, [route]);
+
   function onRouteChange(route) {
     setRoute(route);
   }
@@ -20,13 +27,6 @@ function App() {
   function onChangeItem(item) {
     setItem(item);
   }
-
-  React.useEffect(() => {
-    AOS.init({
-      duration: 1200,
-      offset: 200,
-    });
-  }, [route]);
 
   return (
     <div className="App">
