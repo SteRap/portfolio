@@ -23,13 +23,13 @@ const Portfolio = [
     id: 1,
     img: img1,
     presentation: img1Pres,
-    link: "",
+    link: "https://sterap.github.io/save-the-meal/",
   },
   {
     id: 2,
     img: img2,
     presentation: img2Pres,
-    link: "",
+    link: "https://dane-thesmartbrain.herokuapp.com/",
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ const Portfolio = [
     id: 4,
     img: img4,
     presentation: img4Pres,
-    link: "",
+    link: "https://sterap.github.io/robofriends/",
   },
   // {
   //   id: 5,

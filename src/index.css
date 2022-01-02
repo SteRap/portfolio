@@ -15,7 +15,7 @@
 
   --clr-light: #fff;
   --clr-dark: rgba(48, 48, 48);
-  --clr-accent: #16e0bd;
+  --clr-accent: 22, 224, 189;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -75,7 +75,7 @@ strong {
 .btn {
   display: inline-block;
   padding: 0.5em 2.5em;
-  background: var(--clr-accent);
+  background: rgba(var(--clr-accent));
   color: var(--clr-dark);
   text-decoration: none;
   cursor: pointer;
@@ -128,7 +128,7 @@ h3 {
 
 .section__subtitle--intro,
 .section__subtitle--about {
-  background: var(--clr-accent);
+  background: rgba(var(--clr-accent));
   padding: 0.25em 1em;
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
@@ -143,7 +143,7 @@ h3 {
 .section__subtitle--intro span:after {
   content: "";
   position: absolute;
-  background-color: var(--clr-accent);
+  background-color: rgba(var(--clr-accent));
   left: 100%;
   top: 0;
   height: 100%;
@@ -155,7 +155,7 @@ h3 {
 @keyframes typing {
   0% {
     left: 0%;
-    border-left-color: var(--clr-accent);
+    border-left-color: rgba(var(--clr-accent));
     border-left: 2px solid var(--clr-dark);
   }
 
@@ -178,7 +178,7 @@ h3 {
 }
 
 .section__subtitle--work {
-  color: var(--clr-accent);
+  color: rgba(var(--clr-accent));
   font-weight: var(--fw-bold);
   margin-bottom: 2em;
 }
@@ -234,7 +234,7 @@ header {
 
 .nav__link:hover,
 .nav__link:focus {
-  color: var(--clr-accent);
+  color: rgba(var(--clr-accent));
   text-decoration: underline;
 }
 
@@ -258,7 +258,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-  background: var(--clr-accent);
+  background: rgba(var(--clr-accent));
   width: 2em;
   height: 3px;
   border-radius: 1em;
@@ -314,13 +314,44 @@ header {
   background-color: #fff;
 }
 
+/*! portfolio page */
+
+.portfolio_item_btn {
+  width: fit-content;
+  display: flex;
+  padding: 0.25em 2em;
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
+  border: 2px solid rgba(var(--clr-accent));
+  margin: 1em auto 0 auto;
+  align-items: center;
+  transition: transform 750ms ease-in-out, background-color 250ms ease-in-out;
+}
+.portfolio_item_link {
+  text-decoration: none;
+  display: flex;
+  width: fit-content;
+}
+.portfolio_item_btn:hover {
+  background-color: rgba(var(--clr-accent), 0.3);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.portfolio_item_btn:active {
+  background-color: rgba(var(--clr-accent));
+  box-shadow: inset var(--bs);
+  border: 2px solid transparent;
+}
+
 @media (min-width: 600px) {
   .intro {
     display: grid;
     grid-template-columns: 250px 1fr;
     grid-template-areas:
       "img title "
-      "img subtitle ";
+      "img subtitle "
+      "img btn ";
     grid-column-gap: 2em;
   }
 
@@ -345,6 +376,11 @@ header {
     position: relative;
     z-index: 2;
   }
+
+  .portfolio_item_btn {
+    grid-area: btn;
+    margin: 0;
+  }
 }
 
 /*!  My services section  */
@@ -359,7 +395,7 @@ header {
 }
 
 .section__title--services {
-  color: var(--clr-accent);
+  color: rgba(var(--clr-accent));
   position: relative;
 }
 
@@ -496,7 +532,7 @@ header {
 
 .footer {
   background: #111;
-  color: var(--clr-accent);
+  color: rgba(var(--clr-accent));
   text-align: center;
   padding: 2.5em 0;
 }

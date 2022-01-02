@@ -17,12 +17,6 @@ function Footer() {
             <i className="fab fa-github"></i>
           </a>
         </li>
-        {/* <li className="social-list__item">
-          <a className="social-list__link">c</a>
-        </li>
-        <li className="social-list__item">
-          <a className="social-list__link">d</a>
-        </li> */}
       </ul>
     </footer>
   );

@@ -16,6 +16,13 @@ function PortfolioItem(props) {
           alt=""
           className="intro__img portfolio_item_img"
         />
+        <a
+          href={Portfolio[props.item].link}
+          target="_blank"
+          className="portfolio_item_link"
+        >
+          <button className="portfolio_item_btn">Visit website</button>
+        </a>
       </section>
 
       <div className="portfolio-item-individual">
