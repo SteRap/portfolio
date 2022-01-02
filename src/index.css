@@ -148,7 +148,7 @@ h3 {
   height: 100%;
   width: 200%;
   border-left: 2px solid var(--clr-dark);
-  animation: typing 2s steps(21) 3 both;
+  animation: typing 2s steps(21) 3 forwards;
 }
 
 @keyframes typing {

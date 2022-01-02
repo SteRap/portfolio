@@ -10,15 +10,6 @@ import Footer from "./Footer";
 import PortfolioItem from "./PortfolioItem";
 
 function App() {
-  React.useEffect(() => {
-    AOS.init({
-      duration: 1200,
-      offset: 200,
-    });
-  }, []);
-
-  
-
   const [route, setRoute] = React.useState("home");
   const [item, setItem] = React.useState(1);
 
@@ -29,6 +20,13 @@ function App() {
   function onChangeItem(item) {
     setItem(item);
   }
+
+  React.useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      offset: 200,
+    });
+  }, [route]);
 
   return (
     <div className="App">
