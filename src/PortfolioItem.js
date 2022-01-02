@@ -6,22 +6,25 @@ function PortfolioItem(props) {
     <div id="portfolio">
       <section className="intro">
         <h1 className="section__title section__title--intro">
-          The title <strong>of my project</strong>
+          {Portfolio[props.item].titleSmall}
+          <strong>{Portfolio[props.item].titleStrong}</strong>
         </h1>
         <p className="section__subtitle section__subtitle--intro">
-          A short subtitle
+          {Portfolio[props.item].subtitle}
         </p>
-        <img
-          src={Portfolio[props.item].presentation}
-          alt=""
-          className="intro__img portfolio_item_img"
-        />
+        <div className="intro_img_container portfolio_item_img_container">
+          <img
+            src={Portfolio[props.item].presentation}
+            alt=""
+            className="portfolio_item_img"
+          />
+        </div>
         <a
           href={Portfolio[props.item].link}
           target="_blank"
           className="portfolio_item_link"
         >
-          <button className="portfolio_item_btn">Visit website</button>
+          <button className="portfolio_item_btn btn">Visit website</button>
         </a>
       </section>
 

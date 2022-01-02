@@ -40,8 +40,8 @@ function Services() {
         </div>
       </div>
 
-      <a href="#work" className="btn" data-aos="fade-up" data-aos-offset="50">
-        My Work
+      <a href="#work" data-aos="fade-up" data-aos-offset="50">
+        <button className="btn ">My Work</button>
       </a>
     </section>
   );

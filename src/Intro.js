@@ -19,13 +19,13 @@ function Intro() {
       >
         <span>full-stack developer</span>
       </p>
-      <img
-        src={profileImg}
-        alt="myself"
-        className="intro__img"
+      <div
+        className="intro_img_container"
         data-aos="fade-right"
         data-aos-duration="2000"
-      />
+      >
+        <img src={profileImg} alt="myself" className="intro_img" />
+      </div>
     </section>
   );
 }
