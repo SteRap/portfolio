@@ -39,6 +39,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -48,6 +49,7 @@ body {
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 section {
@@ -130,6 +132,42 @@ h3 {
   padding: 0.25em 1em;
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
+  overflow: hidden;
+}
+
+.section__subtitle--intro span {
+  position: relative;
+}
+
+.section__subtitle--intro span:after {
+  content: "";
+  position: absolute;
+  background-color: var(--clr-accent);
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 200%;
+  border-left: 2px solid var(--clr-dark);
+  animation: typing 2s steps(21) 3 both;
+}
+
+@keyframes typing {
+  99% {
+    left: 100%;
+    margin: 0 0.5em;
+    border-left-color: var(--clr-dark);
+  }
+  100% {
+    left: 100%;
+    margin: 0 0.5em;
+    border-left-color: transparent;
+  }
+}
+
+@media (max-width: 750px) {
+  .section__subtitle--intro span:after {
+    display: none;
+  }
 }
 
 .section__subtitle--work {
@@ -143,11 +181,13 @@ h3 {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 1em;
+  margin-right: 1em;
+  padding: 1em 0em 1em 0;
 }
 
 .nav__logo {
   max-width: 12rem;
+  cursor: pointer;
 }
 
 .nav {
@@ -159,7 +199,6 @@ header {
   left: 0;
   right: 0;
   z-index: 100;
-
   transform: translateX(100%);
   transition: transform 250ms cubic-bezier(0.5, 0, 0.5, 1);
 }
@@ -173,6 +212,10 @@ header {
   align-items: center;
   margin: 0;
   padding: 0;
+}
+
+.nav_list_closed {
+  display: none;
 }
 
 .nav__link {
@@ -189,13 +232,14 @@ header {
 }
 
 .nav-toogle {
+  align-self: flex-start;
   padding: 0.5em;
   background: transparent;
   border: 0;
   cursor: pointer;
-  position: absolute;
-  right: 1em;
-  top: 1em;
+  position: relative;
+  right: 0em;
+  top: 0em;
   z-index: 1000;
 }
 
@@ -344,16 +388,17 @@ header {
     margin-right: auto;
   }
 
+  .service {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
   .service h3 {
-    min-height: 15%;
+    min-height: 2.2em;
   }
 
   .service > p {
     text-align: justify;
-  }
-
-  .service:nth-child(2) {
-    padding: 0 2em;
   }
 
   .service + .service {
@@ -402,6 +447,10 @@ header {
     position: relative;
     z-index: 2;
   }
+
+  .portfolio_item_img {
+    margin-top: -3rem;
+  }
 }
 
 /*! my-work */
@@ -420,7 +469,8 @@ header {
 }
 
 .portfolio__img {
-  height: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
 }
 
@@ -431,7 +481,7 @@ header {
 
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img {
-  transform: scale(1.15);
+  transform: scale(1.1);
   opacity: 0.7;
 }
 

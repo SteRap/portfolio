@@ -1,4 +1,6 @@
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Header from "./Header";
 import Intro from "./Intro";
 import Services from "./Services";
@@ -8,6 +10,15 @@ import Footer from "./Footer";
 import PortfolioItem from "./PortfolioItem";
 
 function App() {
+  React.useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      offset: 200,
+    });
+  }, []);
+
+  
+
   const [route, setRoute] = React.useState("home");
   const [item, setItem] = React.useState(1);
 

@@ -12,11 +12,19 @@ function Header(props) {
   }
 
   const nav_open = navOpen ? "nav_open" : null;
+  const nav_list_closed = navOpen ? "nav__list" : "nav_list_closed nav__list";
 
   return (
     <header className={`${nav_open}`} id="header">
       <div className="logo">
-        <img src={personalLogo} alt="" className="nav__logo" />
+        <img
+          src={personalLogo}
+          alt=""
+          className="nav__logo"
+          onClick={() => {
+            props.onRouteChange("home");
+          }}
+        />
       </div>
       <button
         className="nav-toogle"
@@ -26,7 +34,7 @@ function Header(props) {
         <span className="hamburger"></span>
       </button>
       <nav className="nav">
-        <ul className="nav__list" onClick={closeNav}>
+        <ul className={`${nav_list_closed}`} onClick={closeNav}>
           <li
             className="nav__item"
             onClick={() => {

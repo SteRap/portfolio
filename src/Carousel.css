@@ -1,0 +1,58 @@
+.carousel {
+  overflow: hidden;
+}
+
+.inner {
+  white-space: nowrap;
+  transition: transform 800ms ease-in-out;
+}
+
+.carousel-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: transparent;
+  color: white;
+}
+
+.indicators {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.indicators > button {
+  margin: 1rem 0.3rem;
+  border: 1px solid turquoise;
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+  opacity: 0.6;
+  transform: scale(1);
+  transition: background-color 300ms ease-in-out, transform 300ms ease-in-out;
+}
+
+.indicators > button.active {
+  background-color: turquoise;
+  opacity: 1;
+}
+
+.indicators > button:hover:not(.active) {
+  transform: scale(1.2);
+  background-color: turquoise;
+  cursor: pointer;
+}
+
+.indicators > button:active:not(.active) {
+  transform: scale(1.2);
+  background-color: turquoise;
+  cursor: pointer;
+  opacity: 1;
+}
+
+@media (min-width: 600px) {
+  .carousel-item {
+    padding: 0.8rem 0rem;
+  }
+}

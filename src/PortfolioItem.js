@@ -11,7 +11,11 @@ function PortfolioItem(props) {
         <p className="section__subtitle section__subtitle--intro">
           A short subtitle
         </p>
-        <img src={Portfolio[props.item].img} alt="" className="intro__img" />
+        <img
+          src={Portfolio[props.item].presentation}
+          alt=""
+          className="intro__img portfolio_item_img"
+        />
       </section>
 
       <div className="portfolio-item-individual">
