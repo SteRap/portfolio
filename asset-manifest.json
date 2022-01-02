@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4bd79920.chunk.css",
-    "main.js": "/portfolio/static/js/main.a6191c7b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a6191c7b.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.8500a7f2.chunk.css",
+    "main.js": "/portfolio/static/js/main.82fd65fa.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.82fd65fa.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.5c2a92a9.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.5c2a92a9.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/portfolio/static/css/2.7fc9bc2b.chunk.css",
@@ -12,26 +12,28 @@
     "static/js/3.74b904b7.chunk.js.map": "/portfolio/static/js/3.74b904b7.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/portfolio/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.4bd79920.chunk.css.map": "/portfolio/static/css/main.4bd79920.chunk.css.map",
+    "static/css/main.8500a7f2.chunk.css.map": "/portfolio/static/css/main.8500a7f2.chunk.css.map",
     "static/js/2.3041a078.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3041a078.chunk.js.LICENSE.txt",
     "static/media/Profile_picture.48ab1e9d.jpg": "/portfolio/static/media/Profile_picture.48ab1e9d.jpg",
     "static/media/index.css": "/portfolio/static/media/bcg.services.dc25456c.png",
     "static/media/logo_SR.de07a812.png": "/portfolio/static/media/logo_SR.de07a812.png",
     "static/media/profile_3.06e9cf0b.jpg": "/portfolio/static/media/profile_3.06e9cf0b.jpg",
     "static/media/quizzical.201327c5.png": "/portfolio/static/media/quizzical.201327c5.png",
+    "static/media/quizzical_presentation.6753f7df.png": "/portfolio/static/media/quizzical_presentation.6753f7df.png",
     "static/media/robofriends.fe03fe3e.png": "/portfolio/static/media/robofriends.fe03fe3e.png",
     "static/media/robofriends_presentation.08f09694.png": "/portfolio/static/media/robofriends_presentation.08f09694.png",
     "static/media/save_the_meal.57ceff29.png": "/portfolio/static/media/save_the_meal.57ceff29.png",
     "static/media/save_the_meal_presentation.d67b49f5.png": "/portfolio/static/media/save_the_meal_presentation.d67b49f5.png",
     "static/media/smart_brain.21f68c1b.png": "/portfolio/static/media/smart_brain.21f68c1b.png",
     "static/media/smart_brain_presentation.cd44133b.png": "/portfolio/static/media/smart_brain_presentation.cd44133b.png",
-    "static/media/space_tourism.b5146935.png": "/portfolio/static/media/space_tourism.b5146935.png"
+    "static/media/space_tourism.b5146935.png": "/portfolio/static/media/space_tourism.b5146935.png",
+    "static/media/space_tourism_presentation.e7b92189.png": "/portfolio/static/media/space_tourism_presentation.e7b92189.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5c2a92a9.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.3041a078.chunk.js",
-    "static/css/main.4bd79920.chunk.css",
-    "static/js/main.a6191c7b.chunk.js"
+    "static/css/main.8500a7f2.chunk.css",
+    "static/js/main.82fd65fa.chunk.js"
   ]
 }
