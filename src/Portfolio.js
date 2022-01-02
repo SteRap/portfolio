@@ -3,7 +3,7 @@ import img0Pres from "./Media/Project/quizzical.png";
 import img1 from "./Media/Project/save_the_meal.png";
 import img1Pres from "./Media/Project/save_the_meal_presentation.png";
 import img2 from "./Media/Project/smart_brain.png";
-import img2Pres from "./Media/Project/quizzical.png";
+import img2Pres from "./Media/Project/smart_brain_presentation.png";
 import img3 from "./Media/Project/space_tourism.png";
 import img3Pres from "./Media/Project/quizzical.png";
 import img4 from "./Media/Project/robofriends.png";
@@ -26,7 +26,7 @@ const Portfolio = [
   {
     id: 2,
     img: img2,
-    presentation: "",
+    presentation: img2Pres,
   },
   {
     id: 3,
