@@ -39,7 +39,10 @@ function App() {
           <Work onRouteChange={onRouteChange} onChangeItem={onChangeItem} />
         </div>
       ) : (
-        <PortfolioItem item={item} />
+        <div>
+          <PortfolioItem item={item} />
+          <Work onRouteChange={onRouteChange} onChangeItem={onChangeItem} />
+        </div>
       )}
       <Footer />
     </div>
