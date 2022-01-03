@@ -122,7 +122,9 @@ const Portfolio = [
     titleSmall: "Search your",
     titleStrong: "Robofriends",
     subtitle: "My first app with React and API fetched data",
-    intro: "",
+    intro: `<strong>ROBOFRIENDS</strong> is a small and simple React App which I developed in order to start practicing with React and API requestes. <br>The app is built on the API provided by <a href="https://robohash.org" target="_blank">Robohash </a>. <br>
+    The app includes a searching feature that allows users to filter among their robofriends by typing the robots' names. `,
+    description: "",
   },
   // {
   //   id: 5,
