@@ -28,23 +28,23 @@ const Portfolio = [
     description: `<br><h3>Technologies</h3>
     <h4>Frontend</h4>
     For the frontend, the application relies mostly on CSS3 and JSX due to the use of the REACT framework. This application has been the first one that I developped using React. 
-    On top of CSS3, I relied on <a href="https://tachyons.io" target="_blank">Tachyons</a> libraries for the <i>SignIn</i> and <i>Register</i> form; also on Sass to create tooltips and animate them. 
+    On top of CSS3, I relied on <a href="https://tachyons.io" target="_blank">Tachyons</a> libraries for the <i>Sign In</i> and <i>Register</i> form; also on Sass to create tooltips and animate them. 
     
     <h4>Backend</h4>
     
-    For the backend, I used NODE.js powered with EXPRESS.js. In addiction, I relied on few npm extensions: <strong>1.</strong> <a href="https://www.npmjs.com/package/body-parser" target="_blank">BodyParser</a> as the middleware to enable the communication and data exchange between the frontend and the backend; <strong>2.</strong> <a href="https://knexjs.org" target="_blank">KNEX.js</a>  to powered Node.js and create better queries; <strong>3.</strong> <a href="https://www.npmjs.com/package/bcrypt" target="_blank">BCRYPT</a>  to encrypt users'passwords and guarentee security; <strong>4.</strong> <a href="https://www.npmjs.com/package/cors" target="_blank">CORS</a> the package for providing the Express middleware that can be used to enable CORS with various options.<br>
+    For the backend, I used NODE.js powered with EXPRESS.js. In addiction, I relied on few npm extensions: <strong>1.</strong> <a href="https://www.npmjs.com/package/body-parser" target="_blank">BodyParser</a> as the middleware to enable the communication and data exchange between the frontend and the backend; <strong>2.</strong> <a href="https://knexjs.org" target="_blank">KNEX.js</a>  to powered Node.js and create better queries; <strong>3.</strong> <a href="https://www.npmjs.com/package/bcrypt" target="_blank">BCRYPT</a> to encrypt users' passwords and guarentee security; <strong>4.</strong> <a href="https://www.npmjs.com/package/cors" target="_blank">CORS</a> the package for providing the Express middleware that can be used to enable CORS with various options.<br>
     To test the server's requests I relied on <a href="https://www.postman.com" target="_blank">Postman</a>. 
     
     <h4>Database</h4> 
-    To mantain the data for users'profile and for their games and scores, I used the relational database PostegreSQL. To work better with it I relied on the database tool <a href="https://dbeaver.io" target="_blank">DBeaver</a>. On the matter, I structured the database by creating two tables: <strong>1.</strong> Login <strong>2.</strong> Users. They communicate between them through the common value <i>"EMAIL"</i>. 
+    To mantain the data for users' profile and for their games and scores, I used the relational database PostegreSQL. To work better with it I relied on the database tool <a href="https://dbeaver.io" target="_blank">DBeaver</a>. On the matter, I structured the database by creating two tables: <strong>1.</strong> Login <strong>2.</strong> Users. They communicate between them through the common value <i>"EMAIL"</i>. 
     
     <h4>Hosting</h4>
     Frontend, Backend and Database are all of them hosted by <a href="https://www.heroku.com/home" target="_blank">HEROKU</a>  <br>
     <br>
     <h3 style="margin-bottom:0.5em">Challenges</h3>
     
-    <strong>FRONTEND:</strong> Being my first solo project using React, the main challenges have been about <strong>1.</strong> the architecture of the app; <strong>2.</strong> dealing with States and components that could affect parents' and siblings' States <i>(N.B. I didn't use Redux)</i>; <strong>3.</strong> tailoring the API response to have clean data (e.g. have the answers that could be displayed randomly --> right answers NOT always on the 4th position); <strong>4.</strong> rendering components at my needs (--> learning React.useEffect has been a must). <br>
-    <strong>BACKEND:</strong> On the backend side, the main difficulties have been <strong>1.</strong> creating working queries <strong>2.</strong> allow the DB tables to relate between them; <strong>3.</strong> use req.body to transfer users'inputs to the backend. <br>
+    <strong>FRONTEND:</strong> Being my first solo project using React, the main challenges have been about <strong>1.</strong> the architecture of the app; <strong>2.</strong> dealing with States and components that could affect parents' and siblings' States <i>(N.B. I didn't use Redux)</i>; <strong>3.</strong> tailoring the API response to have clean data (e.g. have the answers that could be displayed randomly &#x2192 right answers NOT always on the 4th position); <strong>4.</strong> rendering components at my needs (&#x2192 learning React.useEffect has been a must). <br>
+    <strong>BACKEND:</strong> On the backend side, the main difficulties have been <strong>1.</strong> creating working queries <strong>2.</strong> allow the DB tables to relate between them; <strong>3.</strong> use req.body to transfer users' inputs to the backend. <br>
     <strong>DATABASE:</strong>  Luckly, it was easier than expected, but still it requires some efforts to move myself around with a new language and the use of the software DBeaver. 
     <br>
     <br>
@@ -80,10 +80,10 @@ const Portfolio = [
     <h3>Technologies</h3>
     <h4>Frontend</h4>
     For the frontend, the application relies mostly on CSS3 and JSX due to the use of the REACT framework. This application has been the first one that I developped using React. 
-    On top of CSS3, I relied on <a href="https://tachyons.io" target="_blank">Tachyons</a> libraries for the <i>SignIn</i> and <i>Register</i> form;
+    On top of CSS3, I relied on <a href="https://tachyons.io" target="_blank">Tachyons</a> libraries for the <i>Sign In</i> and <i>Register</i> form;
     
     <h4>Backend</h4>
-    For the backend, I used NODE.js powered with EXPRESS.js. In addiction, I relied on few npm extensions: <strong>1.</strong> <a href="https://www.npmjs.com/package/body-parser" target="_blank">BodyParser</a> as the middleware to enable the communication and data exchange between the frontend and the backend; <strong>2.</strong> <a href="https://knexjs.org" target="_blank">KNEX.js</a>  to powered Node.js and create better queries; <strong>3.</strong> <a href="https://www.npmjs.com/package/bcrypt" target="_blank">BCRYPT</a>  to encrypt users'passwords and guarentee security; <strong>4.</strong> <a href="https://www.npmjs.com/package/cors" target="_blank">CORS</a> the package for providing the Express middleware that can be used to enable CORS with various options.<br>
+    For the backend, I used NODE.js powered with EXPRESS.js. In addiction, I relied on few npm extensions: <strong>1.</strong> <a href="https://www.npmjs.com/package/body-parser" target="_blank">BodyParser</a> as the middleware to enable the communication and data exchange between the frontend and the backend; <strong>2.</strong> <a href="https://knexjs.org" target="_blank">KNEX.js</a>  to powered Node.js and create better queries; <strong>3.</strong> <a href="https://www.npmjs.com/package/bcrypt" target="_blank">BCRYPT</a> to encrypt users' passwords and guarentee security; <strong>4.</strong> <a href="https://www.npmjs.com/package/cors" target="_blank">CORS</a> the package for providing the Express middleware that can be used to enable CORS with various options.<br>
     To test the server's requests I relied on <a href="https://www.postman.com" target="_blank">Postman</a>. 
     
     <h4>Database</h4> 
@@ -112,7 +112,32 @@ const Portfolio = [
     titleSmall: "Explore",
     titleStrong: "the Space",
     subtitle: "My first multipages responsive website",
-    intro: "",
+    intro: `A multipage website that advertises the next frontier of tourism: <strong>the space one!</strong> <br>The website consists of a Landing Page (Home), and three other pages (1. Planets - where you can travel to; 2. Crew - people that drive the space expeditions; 3 Technology - brief expalanation of the cool stuffs that makes space tourism possible). Each of the three pages contains several subpages that use the same design layout. `,
+    description: `Working on this project was a challenging but fun exercise to develop and strengthen my pure CSS skills. Indeed it is the first project I did that focuses on fully responsiveness for different sizes devices and accessibility for people with physical disabilities, situational disabilities, and socio-economic restrictions on bandwidth and speed.
+<br>
+    Moreover, working on this project I tryed to follow and apply all the good practices for an efficient stylying system.<br><br>
+    <h3 style="margin-bottom:0.5em">The Design System</h3>
+    Everything started crafting the design system for Fonts, Colors, Elements, Buttons etc...
+    <br><br>
+    <h3 style="margin-bottom:0.5em">Default settings, Utility Classes and Custom Properties</h3>
+    While creating the design system, I defined the basic rules for the UI of the websites pages &#x2192 <strong>1.</strong> Reset of sensible default settings; <strong>2.</strong> Create Utility Classes; <strong>3.</strong> Define Custom Properties. Afwerwards, the main part of the job consisted on creating the layout for the different pages. On this matter, the novelty, for me, consisted on defining the design for mobile first, and then, through the use of @media queries, tailored the layout for tablets and desktops as well. 
+    <br>
+    <br>
+      
+    <h3 style="margin-bottom:0.5em">JavaScript</h3>
+      
+    The needs to use JavaScript was limited to 
+      <strong>1.</strong>enable the navigation bar to open and collapse at the users' need <i>(N.B. case specific for mobile devices)</i>
+      </br>
+      
+     ![alt text](media/website_preview/website_preview_mobileview.png) 
+      
+      </br>
+      <strong>2.</strong>allow users to use keytabs to navigate on the website;
+      <br><br>
+     
+      <h3 style="margin-bottom:0.5em">Conclusions and Learnings</h3>
+      This project inspired by <a href="https://www.frontendmentor.io" target="_blank">FrontEnd Mentor</a> gave me the opportunity to sharpen my CSS skills, to work on a responsive website, to realize the importance of accesibility, and probably, above all, the need to define classes for 99%, if not all, of the HTML elements that we write. `,
   },
   {
     id: 4,
