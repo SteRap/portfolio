@@ -28,15 +28,15 @@ const Portfolio = [
     description: `<br><h3>Technologies</h3>
     <h4>Frontend</h4>
     For the frontend, the application relies mostly on CSS3 and JSX due to the use of the REACT framework. This application has been the first one that I developped using React. 
-    On top of CSS3, I relied on Tachyons https://tachyons.io libraries for the SignIn and Register form; also on Sass to create tooltips and animate them. 
+    On top of CSS3, I relied on <a href="https://tachyons.io" target="_blank">Tachyons</a> libraries for the <i>SignIn</i> and <i>Register</i> form; also on Sass to create tooltips and animate them. 
     
     <h4>Backend</h4>
     
-    For the backend, I use NODE.js powered with EXPRESS.js. In addiction, I relied on few npm extensions: <strong>1.</strong> <a href="https://www.npmjs.com/package/body-parser" target="_blank">BodyParser</a> as the middleware to enable the communication and data exchange between the frontend and the backend; <strong>2.</strong> <a href="https://knexjs.org" target="_blank">KNEX.js</a>  to powered Node.js and create better queries; <strong>3.</strong> <a href="https://www.npmjs.com/package/bcrypt" target="_blank">BCRYPT</a>  to encrypt users'passwords and guarentee security; <strong>4.</strong> <a href="https://www.npmjs.com/package/cors" target="_blank">CORS</a> the package for providing the Express middleware that can be used to enable CORS with various options.
-    To test the server's requests I relied on <a href="https://www.postman.com" target="_blank">Postman</a> . 
+    For the backend, I used NODE.js powered with EXPRESS.js. In addiction, I relied on few npm extensions: <strong>1.</strong> <a href="https://www.npmjs.com/package/body-parser" target="_blank">BodyParser</a> as the middleware to enable the communication and data exchange between the frontend and the backend; <strong>2.</strong> <a href="https://knexjs.org" target="_blank">KNEX.js</a>  to powered Node.js and create better queries; <strong>3.</strong> <a href="https://www.npmjs.com/package/bcrypt" target="_blank">BCRYPT</a>  to encrypt users'passwords and guarentee security; <strong>4.</strong> <a href="https://www.npmjs.com/package/cors" target="_blank">CORS</a> the package for providing the Express middleware that can be used to enable CORS with various options.<br>
+    To test the server's requests I relied on <a href="https://www.postman.com" target="_blank">Postman</a>. 
     
     <h4>Database</h4> 
-    To mantain the data for users'profile and for their games and scores, I use the relational database PostegreSQL. To work better with it I relied on the database tool <a href="https://dbeaver.io" target="_blank">DBeaver</a>. On the matter, I structured the database by creating two tables: <strong>1.</strong> Login <strong>2.</strong> Users. They communicate between them through the common value <i>"EMAIL"</i>. 
+    To mantain the data for users'profile and for their games and scores, I used the relational database PostegreSQL. To work better with it I relied on the database tool <a href="https://dbeaver.io" target="_blank">DBeaver</a>. On the matter, I structured the database by creating two tables: <strong>1.</strong> Login <strong>2.</strong> Users. They communicate between them through the common value <i>"EMAIL"</i>. 
     
     <h4>Hosting</h4>
     Frontend, Backend and Database are all of them hosted by <a href="https://www.heroku.com/home" target="_blank">HEROKU</a>  <br>
@@ -75,7 +75,34 @@ const Portfolio = [
     titleSmall: "Dane",
     titleStrong: "the Smart Brain",
     subtitle: "Full-stack app powered by AI",
-    intro: "",
+    intro: `<strong>Smart Brain</strong> is a full-stack web app. <br>I developed this full-stack web app as the final project of the 37-hours-long Web developer <a href="https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/learn/lecture/19845426#overview" target="_blank">course</a> taught by <a href="https://github.com/aneagoie" target="_blank">Andrei Neagoi </a> founder of ZeroToMastery. <br>The application allows the users to paste an image URL in order to scan human faces inside the image itself. <br>Smart Brain runs on top an Artificial Intelligence technology provided by <a href="https://www.clarifai.com" target="_blank">Clarifai</a>.`,
+    description: `
+    <h3>Technologies</h3>
+    <h4>Frontend</h4>
+    For the frontend, the application relies mostly on CSS3 and JSX due to the use of the REACT framework. This application has been the first one that I developped using React. 
+    On top of CSS3, I relied on <a href="https://tachyons.io" target="_blank">Tachyons</a> libraries for the <i>SignIn</i> and <i>Register</i> form;
+    
+    <h4>Backend</h4>
+    For the backend, I used NODE.js powered with EXPRESS.js. In addiction, I relied on few npm extensions: <strong>1.</strong> <a href="https://www.npmjs.com/package/body-parser" target="_blank">BodyParser</a> as the middleware to enable the communication and data exchange between the frontend and the backend; <strong>2.</strong> <a href="https://knexjs.org" target="_blank">KNEX.js</a>  to powered Node.js and create better queries; <strong>3.</strong> <a href="https://www.npmjs.com/package/bcrypt" target="_blank">BCRYPT</a>  to encrypt users'passwords and guarentee security; <strong>4.</strong> <a href="https://www.npmjs.com/package/cors" target="_blank">CORS</a> the package for providing the Express middleware that can be used to enable CORS with various options.<br>
+    To test the server's requests I relied on <a href="https://www.postman.com" target="_blank">Postman</a>. 
+    
+    <h4>Database</h4> 
+    To mantain the data for users' profile and for their entries' number, I used the relational database PostegreSQL. To work better with it I relied on the database tool <a href="https://dbeaver.io" target="_blank">DBeaver</a>. On the matter, I structured the database by creating two tables: <strong>1.</strong> Login <strong>2.</strong> Users. They communicate between them through the common value <i>"EMAIL"</i>. 
+    
+    
+    <h4>Hosting</h4>
+    Frontend, Backend and Database are all of them hosted by <a href="https://www.heroku.com/home" target="_blank">HEROKU</a>  <br>
+    <br>
+   
+    
+    <h3 style="margin-bottom:0.5em">Learnings</h3>  
+    
+    Developing and working on this project has been as fun as tough. Completing this project, I have acquired an enourmous amout of skills and knowledge. Now,  I feel much more confortable developping React app with class and functional components, dealing with React States, using React Hooks, performing API fetches and creating a backend to serve a frontend app.
+    <br>
+    <br>
+    <h3 style="margin-bottom:0.5em">Credits</h3>
+    
+    Huge thank is due to <a href="https://github.com/aneagoie" target="_blank">Andrei Neagoi</a> that released and taught an amazing and detailed course. <br>All the topics have been introduced and explained clearly, and the Smart Brain app has been a great project to practice the taught knowledge and skills.`,
   },
   {
     id: 3,
