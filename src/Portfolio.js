@@ -31,32 +31,31 @@ const Portfolio = [
     On top of CSS3, I relied on Tachyons https://tachyons.io libraries for the SignIn and Register form; also on Sass to create tooltips and animate them. 
     
     <h4>Backend</h4>
-    https://github.com/SteRap/Quizzical-backend/
     
-    For the backend, I use NODE.js powered with EXPRESS.js. In addiction, I relied on few npm extensions: 1. BodyParser https://www.npmjs.com/package/body-parser as the middleware to enable the communication and data exchange between the frontend and the backend; 2. KNEX.js https://knexjs.org to powered Node.js and create better queries; 3. BCRYPT https://www.npmjs.com/package/bcrypt to encrypt users'passwords and guarentee security; 4. CORS https://www.npmjs.com/package/cors the package for providing the Express middleware that can be used to enable CORS with various options.
-    To test the server's requests I relied on Postman https://www.postman.com. 
+    For the backend, I use NODE.js powered with EXPRESS.js. In addiction, I relied on few npm extensions: <strong>1.</strong> <a href="https://www.npmjs.com/package/body-parser" target="_blank">BodyParser</a> as the middleware to enable the communication and data exchange between the frontend and the backend; <strong>2.</strong> <a href="https://knexjs.org" target="_blank">KNEX.js</a>  to powered Node.js and create better queries; <strong>3.</strong> <a href="https://www.npmjs.com/package/bcrypt" target="_blank">BCRYPT</a>  to encrypt users'passwords and guarentee security; <strong>4.</strong> <a href="https://www.npmjs.com/package/cors" target="_blank">CORS</a> the package for providing the Express middleware that can be used to enable CORS with various options.
+    To test the server's requests I relied on <a href="https://www.postman.com" target="_blank">Postman</a> . 
     
     <h4>Database</h4> 
-    To mantain the data for users'profile and for their games and scores, I use the relational database PostegreSQL. To work better with it I relied on the database tool DBeaver https://dbeaver.io. On the matter, I structured the database by creating to tables: 1. Login 2. Users. They communicate between them through the common value (EMAIL). 
+    To mantain the data for users'profile and for their games and scores, I use the relational database PostegreSQL. To work better with it I relied on the database tool <a href="https://dbeaver.io" target="_blank">DBeaver</a>. On the matter, I structured the database by creating two tables: <strong>1.</strong> Login <strong>2.</strong> Users. They communicate between them through the common value <i>"EMAIL"</i>. 
     
     <h4>Hosting</h4>
-    Frontend, Backend and Database are all of them hosted by HEROKU https://www.heroku.com/home <br>
+    Frontend, Backend and Database are all of them hosted by <a href="https://www.heroku.com/home" target="_blank">HEROKU</a>  <br>
     <br>
     <h3 style="margin-bottom:0.5em">Challenges</h3>
     
-    <strong>FRONTEND:</strong> Being my first solo project using React, the main challenges were about 1. the architecture of the app; 2. dealing with States and components that could affect parents' and siblings' States (NB I didn't use Redux); 3. tailoring the API response to have clean data (e.g. have the answers that could be displayed randomly --> right answers NOT always on the 4th position); 4. rendering component at my needs (--> learning React.useEffect has been a must). <br>
-    <strong>BACKEND:</strong> On the backend side, the main difficulties have been 1. creating working queries 2. allow the DB tables to relate between them; 3. use req.body to transfer users'inputs to the backend. <br>
-    <strong>DATABASE:</strong>  Luckly it was easier that expected, but still it requires some efforts to move myself around with a new language and the use of the software DBeaver. 
+    <strong>FRONTEND:</strong> Being my first solo project using React, the main challenges have been about <strong>1.</strong> the architecture of the app; <strong>2.</strong> dealing with States and components that could affect parents' and siblings' States <i>(N.B. I didn't use Redux)</i>; <strong>3.</strong> tailoring the API response to have clean data (e.g. have the answers that could be displayed randomly --> right answers NOT always on the 4th position); <strong>4.</strong> rendering components at my needs (--> learning React.useEffect has been a must). <br>
+    <strong>BACKEND:</strong> On the backend side, the main difficulties have been <strong>1.</strong> creating working queries <strong>2.</strong> allow the DB tables to relate between them; <strong>3.</strong> use req.body to transfer users'inputs to the backend. <br>
+    <strong>DATABASE:</strong>  Luckly, it was easier than expected, but still it requires some efforts to move myself around with a new language and the use of the software DBeaver. 
     <br>
     <br>
     <h3 style="margin-bottom:0.5em">Learnings</h3>  
     
-    Developing and working on this project has been extremely fun. The knowledge and skills learnt and developed are such tremendous that will be difficult to report all of them here. Still, at the end of the project I feel much more confortable developping React app with functional components, dealing with React States, using React Hooks, performs fetch API and create a backend to serve a frontend app.
+    Developing and working on this project has been extremely fun. The knowledge and skills learnt and developed are such tremendous that will be difficult to report all of them here. Still, at the end of the project I feel much more confortable developping React app with functional components, dealing with React States, using React Hooks, performing API fetches and creating a backend to serve a frontend app.
     <br>
     <br>
     <h3 style="margin-bottom:0.5em">Credits</h3>
     
-    Extremely felt gratitude is due to Bob Ziroll https://github.com/bobziroll that taught me lot of skills to work with React; and to Andrei Neagoie https://github.com/aneagoie founder of ZeroToMastery, that as part of the 37-hours-long course https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/learn/lecture/19845426#overview taught me countless knowledge including the ones to create the backend and Database of Quizzical.`,
+    Extremely felt gratitude is due to <a href="https://github.com/bobziroll" target="_blank">Bob Ziroll</a>  that taught me lot of skills to work with React; and to <a href="https://github.com/aneagoie" target="_blank">Andrei Neagoie</a> founder of ZeroToMastery, who taught me, through a 37-long-hours <a href="https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/learn/lecture/19845426#overview" target="_blank">course</a>, countless knowledge including the ones to create the backend and Database of Quizzical.`,
   },
   {
     id: 1,
