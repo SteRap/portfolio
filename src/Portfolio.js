@@ -65,7 +65,11 @@ const Portfolio = [
     titleSmall: "Website for",
     titleStrong: "Save the Meal",
     subtitle: "Multipages responsive website with React",
-    intro: "",
+    intro: `Born on the desire to improve the food system and ensure food security, Save the Meal is a company* that produces <strong>plant-based foods</strong>. This project is a multipage website that advertises the company and its products. <br>The website consists of a Landing Page - <i>Home</i> -, three other pages** (1. <i>Foods</i> - where visitor can explore the details and benefits of the products; 2. <i>Store</i> - an e-commerce where to order and buy the products that you like; 3. <i>Recipes</i> - a database of many plant-based recipes that visitor can follow when they need some inspirations in the kitchen). In addiction, the released of an extra session is scheduled - "Don't waste it, Taste it!" - which is a web app that keeps track of the users' pantry and based on the ingredients' availability suggests recipes from the Save the Meal's database.
+    <br> 
+    <p style="font-size: 0.6em">* Save the Meal is not a real company. I created this fake company out of 1. my desire to use technology to redesign the food system; 2. my vocation to keep animals out of the plates.
+    <br>** These pages are still under construction.</p>`,
+    description: ``,
   },
   {
     id: 2,
@@ -112,7 +116,7 @@ const Portfolio = [
     titleSmall: "Explore",
     titleStrong: "the Space",
     subtitle: "My first multipages responsive website",
-    intro: `A multipage website that advertises the next frontier of tourism: <strong>the space one!</strong> <br>The website consists of a Landing Page (Home), and three other pages (1. Planets - where you can travel to; 2. Crew - people that drive the space expeditions; 3 Technology - brief expalanation of the cool stuffs that makes space tourism possible). Each of the three pages contains several subpages that use the same design layout. `,
+    intro: `A multipage website that advertises the next frontier of tourism: <strong>the space one!</strong> <br>The website consists of a Landing Page (Home), and three other pages (1. Planets - where you can travel to; 2. Crew - people that drive the space expeditions; 3 Technology - brief expalanation of the cool stuffs that makes space tourism possible). Each of the three pages contains several subpages that use the same design layout.`,
     description: `Working on this project was a challenging but fun exercise to develop and strengthen my pure CSS skills. Indeed it is the first project I did that focuses on fully responsiveness for different sizes devices and accessibility for people with physical disabilities, situational disabilities, and socio-economic restrictions on bandwidth and speed.
 <br>
     Moreover, working on this project I tryed to follow and apply all the good practices for an efficient stylying system.<br><br>
