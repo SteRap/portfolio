@@ -18,16 +18,35 @@ function About() {
       </p>
       <div className="about-me__body">
         <p data-aos="zoom-in-up">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          My name is Stefano, but everybody calls me <strong>Pisol</strong>{" "}
+          ("Pi" = &#960;, "sol" = &#9788; - <i>"sun" from italian</i>).
+          <br></br>
+          As many Millenials, I am also deeply concern about the future of our
+          wonderful Planet which is threaten by climate change. Due to its
+          anthropic origin, I am firmly convinced that is our duty to prevent
+          the catastrophe.
+          <br></br>
+          Therefore, I spent the last five years studying and working to take
+          part of{" "}
+          <strong>
+            <i>the Green Revolution.</i>
+          </strong>
+        </p>
+
+        <p data-aos="zoom-in-up">
+          I have a{" "}
+          <strong>business, managerial and economic background.</strong> I held
+          a bachelor in Economic and Business and a MSc on International
+          Business and Management.
+          <br></br> During my last employment, I was the{" "}
+          <strong>Product Owner</strong> in a team that was developping AI
+          powered softwares which goals were to analyze, manage and reduce fuel
+          consumption and CO2e emissions in the Transport Industry.
         </p>
         <p data-aos="zoom-in-up">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          Long story short, I realized that: <strong>1. Technology</strong> is
+          our biggest ally in this <i>war</i>, <strong>2. Coding</strong> is the
+          best application of my innate abilities.
         </p>
       </div>
 

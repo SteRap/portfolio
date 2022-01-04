@@ -134,14 +134,14 @@ const Portfolio = [
       <strong>1.</strong>enable the navigation bar to open and collapse at the users' need <i>(N.B. case specific for mobile devices)</i>
       </br>
       
-     ![alt text](media/website_preview/website_preview_mobileview.png) 
+    //  ![alt text](media/website_preview/website_preview_mobileview.png) 
       
       </br>
       <strong>2.</strong>allow users to use keytabs to navigate on the website;
       <br><br>
      
       <h3 style="margin-bottom:0.5em">Conclusions and Learnings</h3>
-      This project inspired by <a href="https://www.frontendmentor.io" target="_blank">FrontEnd Mentor</a> gave me the opportunity to sharpen my CSS skills, to work on a responsive website, to realize the importance of accesibility, and probably, above all, the need to define classes for 99%, if not all, of the HTML elements that we write. `,
+      This project inspired by <a href="https://www.frontendmentor.io" target="_blank">FrontEnd Mentor</a> gave me the opportunity to sharpen my CSS skills, to work on a responsive website, to realize the importance of accesibility, and probably, above all, the need to define classes for 99%, if not all, of the HTML elements that we write.`,
   },
   {
     id: 4,
