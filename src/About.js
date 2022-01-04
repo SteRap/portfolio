@@ -44,9 +44,10 @@ function About() {
           consumption and CO2e emissions in the Transport Industry.
         </p>
         <p data-aos="zoom-in-up">
-          Long story short, I realized that: <strong>1. Technology</strong> is
-          our biggest ally in this <i>war</i>, <strong>2. Coding</strong> is the
-          best application of my innate abilities.
+          Long story short, I realised that: <strong>1. Technology</strong> is
+          our biggest ally agaist climate change, <strong>2. Coding</strong> is
+          the best application of my innate abilities, <strong>3. Fun</strong>{" "}
+          is guaranteed.
         </p>
       </div>
 
