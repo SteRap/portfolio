@@ -21,8 +21,8 @@ function About() {
           My name is Stefano, but everybody calls me <strong>Pisol</strong>{" "}
           ("Pi" = &#960;, "sol" = &#9788; - <i>"sun" from italian</i>).
           <br></br>
-          As many Millenials, I am also deeply concern about the future of our
-          wonderful Planet which is threaten by climate change. Due to its
+          As many Millenials, myself too is deeply concern about the future of
+          our wonderful Planet which is threaten by climate change. Due to its
           anthropic origin, I am firmly convinced that is our duty to prevent
           the catastrophe.
           <br></br>
@@ -49,6 +49,7 @@ function About() {
           the best application of my innate abilities, <strong>3. Fun</strong>{" "}
           is guaranteed.
         </p>
+        <p data-aos="zoom-in-up">----</p>
       </div>
 
       <img
