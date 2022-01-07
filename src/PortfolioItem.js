@@ -32,7 +32,7 @@ function PortfolioItem(props) {
         <p
           dangerouslySetInnerHTML={{ __html: Portfolio[props.item].intro }}
         ></p>
-        <img src={Portfolio[props.item].img} alt="" />
+        <img src={Portfolio[props.item].img} alt={Portfolio[props.item].titleStrong} />
         <p
           dangerouslySetInnerHTML={{
             __html: Portfolio[props.item].description,

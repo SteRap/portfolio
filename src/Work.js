@@ -33,13 +33,13 @@ function Work(props) {
         className="section__title section__title--work"
         data-aos="zoom-in-down"
       >
-        My work
+        My works
       </h2>
       <p
         className="section__subtitle section__subtitle--work"
         data-aos="zoom-in-down"
       >
-        A selection of my work
+        A selection of my works
       </p>
 
       <div className="portfolio" data-aos="zoom-in-up">
