@@ -49,7 +49,7 @@ function About() {
           the best application of my innate abilities, <strong>3. Fun</strong>{" "}
           is guaranteed.
         </p>
-        <p data-aos="zoom-in-up">----</p>
+        <p data-aos="zoom-in-up"></p>
       </div>
 
       <img

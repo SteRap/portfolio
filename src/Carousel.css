@@ -25,8 +25,8 @@
   margin: 1rem 0.3rem;
   border: 1px solid turquoise;
   border-radius: 50% !important;
-  height: 1rem !important ;
-  width: 1rem !important;
+  height: 20px !important ;
+  width: 20px !important;
   aspect-ratio: 1 !important;
   opacity: 0.6;
   transform: scale(1);

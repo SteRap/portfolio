@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="footer">
       <a href="mailto:stefano.rapino94@gmail.com" className="footer__link">
-        stefano.rapino94@gmail.com
+        s.rapino94@gmail.com
       </a>
       <ul className="social-list">
         <li className="social-list__item">
