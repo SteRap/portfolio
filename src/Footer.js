@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <footer className="footer">
-      <a href="mailto:stefano.rapino94@gmail.com" className="footer__link">
+      <a href="mailto:s.rapino94@gmail.com" className="footer__link">
         s.rapino94@gmail.com
       </a>
       <ul className="social-list">
