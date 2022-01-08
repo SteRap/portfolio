@@ -1,0 +1,36 @@
+.containerStyles {
+  height: 20px;
+  background-color: rgba(22, 224, 189, 0.3);
+  border-radius: 50px;
+}
+
+.fillerStyles {
+  height: 100%;
+  background-color: rgba(22, 224, 189);
+  border-radius: inherit;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.labelStyles {
+  padding: 0.5em;
+  align-self: center;
+  color: rgba(48, 48, 48);
+  letter-spacing: 0.1em;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 600px) {
+  .containerStyles {
+    width: 15rem;
+  }
+  .labelStyles {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .containerStyles {
+    width: 20rem;
+  }
+}

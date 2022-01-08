@@ -22,6 +22,7 @@ function PortfolioItem(props) {
         <a
           href={Portfolio[props.item].link}
           target="_blank"
+          rel="noreferrer"
           className="portfolio_item_link"
         >
           <button className="portfolio_item_btn btn">Visit website</button>
@@ -32,7 +33,10 @@ function PortfolioItem(props) {
         <p
           dangerouslySetInnerHTML={{ __html: Portfolio[props.item].intro }}
         ></p>
-        <img src={Portfolio[props.item].img} alt={Portfolio[props.item].titleStrong} />
+        <img
+          src={Portfolio[props.item].img}
+          alt={Portfolio[props.item].titleStrong}
+        />
         <p
           dangerouslySetInnerHTML={{
             __html: Portfolio[props.item].description,

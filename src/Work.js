@@ -5,18 +5,17 @@ import Carousel, { CarouselItem } from "./Carousel";
 function Work(props) {
   const work = Portfolio.map((work) => {
     return (
-      <CarouselItem>
+      <CarouselItem key={work.id}>
         <a
           onClick={() => {
             props.onRouteChange("portfolio");
           }}
           className="portfolio__item"
           href="#header"
-          key={work.id}
         >
           <img
             src={work.img}
-            alt=""
+            alt={work.titleStrong}
             className="portfolio__img"
             onClick={() => {
               props.onChangeItem(work.id);

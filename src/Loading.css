@@ -1,0 +1,95 @@
+.loading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.container {
+  position: relative;
+  width: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Line */
+.container .ring {
+  position: relative;
+  width: 21px;
+  height: 21px;
+  margin: -7px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  border-top: 1px solid #24ecff;
+}
+/* Head of line */
+.container .ring::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  background: #24ecff;
+  box-shadow: 0 0 0 1px #24ecff33, 0 0 0 2px #24ecff22, 0 0 0 4px #24ecff11,
+    0 0 8px #24ecff, 0 0 10px #24ecff;
+}
+/* Circle Position & Animation */
+.container .ring:nth-child(1) {
+  animation: circle2 2s linear infinite;
+}
+.container .ring:nth-child(2) {
+  animation: circle1 2s linear infinite;
+}
+.container .ring:nth-child(3) {
+  position: absolute;
+  top: -3.5px;
+  animation: circle 2s linear infinite;
+}
+/* Loading Text */
+.loading p {
+  color: black;
+  margin: 0 2rem 0 0 !important;
+  letter-spacing: 4px;
+  font-size: 0.8rem;
+}
+/* Animation */
+@keyframes circle {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes circle1 {
+  0% {
+    transform: rotate(120deg);
+  }
+  100% {
+    transform: rotate(480deg);
+  }
+}
+@keyframes circle2 {
+  0% {
+    transform: rotate(240deg);
+  }
+  100% {
+    transform: rotate(600deg);
+  }
+}
+
+@media (min-width: 600px) {
+  .loading {
+    width: 15rem;
+  }
+  .loading p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .loading {
+    width: 20rem;
+  }
+}
