@@ -19,7 +19,7 @@
   margin: -7px;
   border: 1px solid transparent;
   border-radius: 50%;
-  border-top: 1px solid #24ecff;
+  border-top: 1px solid #16f9bd;
 }
 /* Head of line */
 .container .ring::before {
@@ -30,9 +30,9 @@
   border-radius: 50%;
   width: 4px;
   height: 4px;
-  background: #24ecff;
-  box-shadow: 0 0 0 1px #24ecff33, 0 0 0 2px #24ecff22, 0 0 0 4px #24ecff11,
-    0 0 8px #24ecff, 0 0 10px #24ecff;
+  background: #16f9bd;
+  box-shadow: 0 0 0 1px #16f9bd33, 0 0 0 2px #16f9bd22, 0 0 0 4px #16f9bd11,
+    0 0 8px #16f9bd, 0 0 10px #16f9bd;
 }
 /* Circle Position & Animation */
 .container .ring:nth-child(1) {
@@ -49,7 +49,7 @@
 /* Loading Text */
 .loading p {
   color: black;
-  margin: 0 2rem 0 0 !important;
+  margin: 0 2rem 0 1px !important;
   letter-spacing: 4px;
   font-size: 0.8rem;
 }
