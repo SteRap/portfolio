@@ -1,5 +1,5 @@
 import React from "react";
-import personalLogo from "./Media/logo_SR.png";
+import personalLogo from "./Media/logo.png";
 
 function Header(props) {
   const [navOpen, setNavOpen] = React.useState(false);

@@ -8,7 +8,7 @@ import About from "./About";
 import Work from "./Work";
 import Footer from "./Footer";
 import PortfolioItem from "./PortfolioItem";
-import Skills from "./Skills"
+import Skills from "./Skills";
 
 function App() {
   const [route, setRoute] = React.useState("home");
@@ -38,7 +38,7 @@ function App() {
           <Services />
           <About />
           <Work onRouteChange={onRouteChange} onChangeItem={onChangeItem} />
-          <Skills/>
+          <Skills />
         </div>
       ) : (
         <div>

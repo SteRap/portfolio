@@ -19,7 +19,7 @@
   margin: -7px;
   border: 1px solid transparent;
   border-radius: 50%;
-  border-top: 1px solid #16f9bd;
+  border-top: 1px solid #16e0bd;
 }
 /* Head of line */
 .container .ring::before {
@@ -30,9 +30,9 @@
   border-radius: 50%;
   width: 4px;
   height: 4px;
-  background: #16f9bd;
-  box-shadow: 0 0 0 1px #16f9bd33, 0 0 0 2px #16f9bd22, 0 0 0 4px #16f9bd11,
-    0 0 8px #16f9bd, 0 0 10px #16f9bd;
+  background: #16e0bd;
+  box-shadow: 0 0 0 1px #16e0bd33, 0 0 0 2px #16e0bd22, 0 0 0 4px #16e0bd11,
+    0 0 8px #16e0bd, 0 0 10px #16e0bd;
 }
 /* Circle Position & Animation */
 .container .ring:nth-child(1) {

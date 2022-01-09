@@ -612,7 +612,6 @@ header {
   text-align: left;
 }
 
-
 @media (min-width: 600px) {
   .skills_list {
     display: flex;
