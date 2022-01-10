@@ -36,7 +36,7 @@ function About() {
         <p data-aos="zoom-in-up">
           I have a{" "}
           <strong>business, managerial and economic background.</strong> I held
-          a bachelor in Economic and Business and a MSc on International
+          a bachelor in Economic and Business and a MSc in International
           Business and Management.
           <br></br> During my last employment, I was the{" "}
           <strong>Product Owner</strong> in a team that was developping AI
