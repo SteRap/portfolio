@@ -24,11 +24,11 @@ function Skills() {
       <h2
         className="section__title"
         data-aos="zoom-in-down"
-        data-aos-offset="400"
+        data-aos-offset="300"
       >
         Skills
       </h2>
-      <div className="skills_btns" data-aos="zoom-in" data-aos-offset="400">
+      <div className="skills_btns" data-aos="zoom-in" data-aos-offset="300">
         <button
           className={
             skillType === 0
@@ -71,7 +71,7 @@ function Skills() {
         </button>
       </div>
       {skillType === 3 ? (
-        <div data-aos="zoom-in-up" data-aos-offset="400">
+        <div data-aos="zoom-in-up" data-aos-offset="300">
           <div className="skills_list">
             {skillName}
             <ul>
@@ -84,7 +84,7 @@ function Skills() {
         <div
           className="skills_list"
           data-aos="zoom-in-up"
-          data-aos-offset="400"
+          data-aos-offset="300"
         >
           {skillName}
         </div>
