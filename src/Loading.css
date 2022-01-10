@@ -43,7 +43,7 @@
 }
 .container .ring:nth-child(3) {
   position: absolute;
-  top: -3.5px;
+  top: -4px;
   animation: circle 2s linear infinite;
 }
 /* Loading Text */
