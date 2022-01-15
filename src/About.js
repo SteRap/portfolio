@@ -51,13 +51,13 @@ function About() {
         </p>
         <p data-aos="zoom-in-up"></p>
       </div>
-
       <img
         src={profileImg}
         alt="myself2"
         className="about-me__img"
         data-aos="fade-left"
       />
+    
     </section>
   );
 }
