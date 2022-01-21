@@ -40,7 +40,7 @@ function About() {
           in Economic and Business.
           <br></br> During my last employment, I was the{" "}
           <strong>Product Owner</strong> in a team that was developping AI
-          powered softwares which goals were to analyze, manage and reduce fuel
+          powered software which goals were to analyze, manage and reduce fuel
           consumption and CO2e emissions in the Transport Industry.
         </p>
         <p data-aos="zoom-in-up">
@@ -57,7 +57,6 @@ function About() {
         className="about-me__img"
         data-aos="fade-left"
       />
-    
     </section>
   );
 }

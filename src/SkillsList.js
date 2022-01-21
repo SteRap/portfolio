@@ -27,7 +27,7 @@ const SkillsList = [
     { name: "Notion", lev: 75 },
     { name: "Adobe XD", lev: 70 },
     { name: "Heroku", lev: 60 },
-    { name: "DBeaver", lev: 60 },
+    { name: "DBeaver", lev: 60 },n
   ],
   [
     { name: "Problem Solving", lev: 95 },
