@@ -8,9 +8,7 @@ import img3 from "./Media/Project/space_tourism.png";
 import img3Pres from "./Media/Project/space_tourism_presentation.png";
 import img4 from "./Media/Project/robofriends.png";
 import img4Pres from "./Media/Project/robofriends_presentation.png";
-// import img6 from "./Media/Project/project_6.png";
-// import img7 from "./Media/Project/project_7.png";
-// import img8 from "./Media/Project/project_8.png";
+
 
 const Portfolio = [
   {
