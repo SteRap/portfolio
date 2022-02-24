@@ -1,14 +1,14 @@
 import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Header from "./Header";
-import Intro from "./Intro";
-import Services from "./Services";
-import About from "./About";
-import Work from "./Work";
-import Footer from "./Footer";
-import PortfolioItem from "./PortfolioItem";
-import Skills from "./Skills";
+import Header from "./Container/Header";
+import Intro from "./Container/Intro";
+import Services from "./Container/Services";
+import About from "./Container/About";
+import Work from "./Container/Work";
+import Footer from "./Container/Footer";
+import PortfolioItem from "./Components/PortfolioItem";
+import Skills from "./Components/Skills";
 
 function App() {
   const [route, setRoute] = React.useState("home");

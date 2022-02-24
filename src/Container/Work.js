@@ -1,6 +1,6 @@
 import React from "react";
-import Portfolio from "./Portfolio";
-import Carousel, { CarouselItem } from "./Carousel";
+import Portfolio from "../Components/PortfolioList";
+import Carousel, { CarouselItem } from "../Components/Carousel";
 
 function Work(props) {
   const work = Portfolio.map((work) => {

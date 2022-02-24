@@ -1,26 +1,26 @@
 import React from "react";
-import Portfolio from "./Portfolio";
+import PortfolioList from "./PortfolioList";
 
 function PortfolioItem(props) {
   return (
     <div id="portfolio">
       <section className="intro">
         <h1 className="section__title section__title--intro">
-          {Portfolio[props.item].titleSmall}
-          <strong>{Portfolio[props.item].titleStrong}</strong>
+          {PortfolioList[props.item].titleSmall}
+          <strong>{PortfolioList[props.item].titleStrong}</strong>
         </h1>
         <p className="section__subtitle section__subtitle--intro">
-          {Portfolio[props.item].subtitle}
+          {PortfolioList[props.item].subtitle}
         </p>
         <div className="intro_img_container portfolio_item_img_container">
           <img
-            src={Portfolio[props.item].presentation}
+            src={PortfolioList[props.item].presentation}
             alt=""
             className="portfolio_item_img"
           />
         </div>
         <a
-          href={Portfolio[props.item].link}
+          href={PortfolioList[props.item].link}
           target="_blank"
           rel="noreferrer"
           className="portfolio_item_link"
@@ -31,15 +31,15 @@ function PortfolioItem(props) {
 
       <div className="portfolio-item-individual">
         <p
-          dangerouslySetInnerHTML={{ __html: Portfolio[props.item].intro }}
+          dangerouslySetInnerHTML={{ __html: PortfolioList[props.item].intro }}
         ></p>
         <img
-          src={Portfolio[props.item].img}
-          alt={Portfolio[props.item].titleStrong}
+          src={PortfolioList[props.item].img}
+          alt={PortfolioList[props.item].titleStrong}
         />
         <p
           dangerouslySetInnerHTML={{
-            __html: Portfolio[props.item].description,
+            __html: PortfolioList[props.item].description,
           }}
         ></p>
       </div>
