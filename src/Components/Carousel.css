@@ -21,7 +21,7 @@
   align-items: center;
 }
 
-.indicators > button {
+.indicators > .dot {
   margin: 1rem 0.3rem;
   border: 1px solid #16e0bd;
   border-radius: 50% !important;
@@ -32,21 +32,46 @@
   transform: scale(1);
   transition: background-color 300ms ease-in-out, transform 300ms ease-in-out;
 }
-
-.indicators > button.active {
+.dot.active {
   background-color: #16e0bd;
   opacity: 1;
+  transform: scale(1.2);
 }
-
-.indicators > button:hover:not(.active) {
+.dot:hover:not(.active) {
   transform: scale(1.2);
   background-color: #16e0bd;
   cursor: pointer;
 }
 
-.indicators > button:active:not(.active) {
+.dot:active:not(.active) {
   transform: scale(1.2);
   background-color: #16e0bd;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.arrow {
+  display: flex;
+  z-index: 1000;
+  position: relative;
+  margin: 1rem 0.3rem;
+  opacity: 0.6;
+  transform: scale(1);
+  transition: background-color 300ms ease-in-out, transform 300ms ease-in-out;
+}
+.arrow.active {
+  color: #16e0bd;
+  opacity: 1;
+  transform: scale(1.2);
+}
+.arrow:hover:not(.active) {
+  transform: scale(1.2);
+  color: #16e0bd;
+  cursor: pointer;
+}
+.arrow:active:not(.active) {
+  transform: scale(1.2);
+  color: #16e0bd;
   cursor: pointer;
   opacity: 1;
 }
