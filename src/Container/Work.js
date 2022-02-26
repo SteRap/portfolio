@@ -47,4 +47,5 @@ function Work(props) {
     </section>
   );
 }
+
 export default Work;

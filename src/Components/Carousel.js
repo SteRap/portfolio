@@ -2,9 +2,14 @@ import React from "react";
 import { useSwipeable } from "react-swipeable";
 import "./Carousel.css";
 
-export const CarouselItem = ({ children, width }) => {
+export const CarouselItem = ({ children, width, active }) => {
   return (
-    <div className="carousel-item" style={{ width: width }}>
+    <div
+      className={active ? "carousel-item active" : "carousel-item "}
+      style={{
+        width: width,
+      }}
+    >
       {children}
     </div>
   );
@@ -67,7 +72,10 @@ const Carousel = ({ children }) => {
       <div className="inner" style={{ transform: transformStyle }}>
         {React.Children.map(children, (child, index) => {
           if (screenSize > 800) {
-            return React.cloneElement(child, { width: "33.3%" });
+            return React.cloneElement(child, {
+              width: "33.3%",
+              active: child.key == activeIndex ? true : false,
+            });
           } else if (screenSize <= 800) {
             return React.cloneElement(child, { width: "100%" });
           }
@@ -84,12 +92,20 @@ const Carousel = ({ children }) => {
         </div>
         {React.Children.map(children, (child, index) => {
           return (
-            <button
-              className={`${index === activeIndex ? "dot active" : "dot"}`}
+            <div
+              className="dot"
               onClick={() => {
                 updateIndex(index);
               }}
-            ></button>
+            >
+              <i
+                className={`${
+                  index === activeIndex
+                    ? "fas fa-circle active"
+                    : "fas fa-circle"
+                }`}
+              ></i>
+            </div>
           );
         })}
         <div>
