@@ -23,6 +23,9 @@
 .carousel-item:hover:not(.active) {
   transform: scale(1.05);
 }
+.carousel-item:hover.active {
+  transform: scale(1.15);
+}
 
 .indicators {
   display: flex;
