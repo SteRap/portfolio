@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.984f14ad.chunk.css",
-    "main.js": "/portfolio/static/js/main.ed34dd41.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.ed34dd41.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.030b3b95.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.030b3b95.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.0bf68c44.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.0bf68c44.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/portfolio/static/css/2.7fc9bc2b.chunk.css",
@@ -25,13 +25,15 @@
     "static/media/smart_brain.21f68c1b.png": "/portfolio/static/media/smart_brain.21f68c1b.png",
     "static/media/smart_brain_presentation.cd44133b.png": "/portfolio/static/media/smart_brain_presentation.cd44133b.png",
     "static/media/space_tourism.b5146935.png": "/portfolio/static/media/space_tourism.b5146935.png",
-    "static/media/space_tourism_presentation.e7b92189.png": "/portfolio/static/media/space_tourism_presentation.e7b92189.png"
+    "static/media/space_tourism_presentation.e7b92189.png": "/portfolio/static/media/space_tourism_presentation.e7b92189.png",
+    "static/media/spacex.85eb248f.png": "/portfolio/static/media/spacex.85eb248f.png",
+    "static/media/spacex_presentation.83af3290.png": "/portfolio/static/media/spacex_presentation.83af3290.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0bf68c44.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.3041a078.chunk.js",
     "static/css/main.984f14ad.chunk.css",
-    "static/js/main.ed34dd41.chunk.js"
+    "static/js/main.030b3b95.chunk.js"
   ]
 }
