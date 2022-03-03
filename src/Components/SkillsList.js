@@ -12,6 +12,7 @@ const SkillsList = [
     { name: "PostgreSQL", lev: 50 },
     { name: "Postman", lev: 50 },
     { name: "Bootstrap", lev: 50 },
+    { name: "Apollo", lev: 50 },
     { name: "TypeScript", lev: 40 },
     { name: "Python", lev: 40 },
     { name: "Tachyons", lev: 40 },

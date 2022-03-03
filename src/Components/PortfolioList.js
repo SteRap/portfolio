@@ -6,8 +6,10 @@ import img2 from "../Media/Project/smart_brain.png";
 import img2Pres from "../Media/Project/smart_brain_presentation.png";
 import img3 from "../Media/Project/space_tourism.png";
 import img3Pres from "../Media/Project/space_tourism_presentation.png";
-import img4 from "../Media/Project/robofriends.png";
-import img4Pres from "../Media/Project/robofriends_presentation.png";
+import img4 from "../Media/Project/spacex.png";
+import img4Pres from "../Media/Project/spacex_presentation.png";
+import img5 from "../Media/Project/robofriends.png";
+import img5Pres from "../Media/Project/robofriends_presentation.png";
 
 const PortfolioList = [
   {
@@ -131,8 +133,6 @@ const PortfolioList = [
       <strong>1.</strong>enable the navigation bar to open and collapse at the users' need <i>(N.B. case specific for mobile devices)</i>
       </br>
       
-    //  ![alt text](media/website_preview/website_preview_mobileview.png) 
-      
       </br>
       <strong>2.</strong>allow users to use keytabs to navigate on the website;
       <br><br>
@@ -144,6 +144,40 @@ const PortfolioList = [
     id: 4,
     img: img4,
     presentation: img4Pres,
+    link: "https://radiant-sands-55345.herokuapp.com",
+    titleSmall: "Project with",
+    titleStrong: "SpaceX API",
+    subtitle:
+      "Full-stack webapp that lists SpaceX'missions and uses GraphQL and Apollo",
+    intro: `This project is a full-stack webapp that lists the launch missions of SpaceX and relies on some in great demand tech tools, namely <strong>GraphQL</strong> and <strong>Apollo</strong>.  </br>
+    <h4>Introduction and Motivation </h4>
+    Motivated by the desire to acquire knowledge and experience on <strong>GraphQL</strong> and <strong>Apollo</strong>, I decided to work on this project.
+    Researching online, I have found the SpaceX API (<a target="_blank" href="https://github.com/r-spacex/SpaceX-API">github repository</a>) which provide countless information about launch missions, vehicles and more. Suddenly, I realized it could have been the perfect resource for a project that applies a Query Language.
+    The webapp allows the visitors to search through all the SpaceX launch mission (about 155) from 2008 untill the latest one (the API is maintened and currently updated).
+    Additionally, the visitor can get more detailed information of a specific mission and the used Rocket by clicking on the selected launch mission.
+    `,
+    description: `<br>
+    <h3>Technologies</h3>
+    <h4>Frontend</h4>
+    For the frontend, the UI application is done exclusively by using <a href="https://getbootstrap.com" target="_blank">Bootstrap</a> and few inline styling with conditional rendering; the logic is done with JSX due to the use of the REACT framework. In order to manage the flow of data between the client and the back-end side, I used <a href="https://www.apollographql.com/docs/react">Apollo Client</a>.
+    
+    <h4>Backend</h4>
+    
+    For the backend, I used NODE.js powered with EXPRESS.js in combination with <a href="https://graphql.org/ target="_blank">GraphQL</a>. GraphQL allowed me to tweak the public APIs GraphQL in order to ask for only the data I needed and nothing more. <br>
+    
+    <h4>Hosting</h4>
+    The application (Client and Server side) are hosted on HEROKU https://www.heroku.com/home
+    <br>
+    <br>
+    <h3 style="margin-bottom:0.5em">Learnings</h3>
+    
+    Developing and working on this project has been as extremely fun and educating. Completing this project, I have acquired experience and more familiarity with GraphQL, Apollo. Now, I feel much more confortable developping React app that query public APIs.
+    As always I work a new project, I get better at reading documentations and solve the problems that arised along the way.`,
+  },
+  {
+    id: 5,
+    img: img5,
+    presentation: img5Pres,
     link: "https://sterap.github.io/robofriends/",
     titleSmall: "Search your",
     titleStrong: "Robofriends",
