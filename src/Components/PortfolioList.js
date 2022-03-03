@@ -166,7 +166,7 @@ const PortfolioList = [
     For the backend, I used NODE.js powered with EXPRESS.js in combination with <a href="https://graphql.org/ target="_blank">GraphQL</a>. GraphQL allowed me to tweak the public APIs GraphQL in order to ask for only the data I needed and nothing more. <br>
     
     <h4>Hosting</h4>
-    The application (Client and Server side) are hosted on HEROKU https://www.heroku.com/home
+    The application (Client and Server side) are hosted on <a href="https://www.heroku.com/home" target="_blank">HEROKU</a>. 
     <br>
     <br>
     <h3 style="margin-bottom:0.5em">Learnings</h3>
